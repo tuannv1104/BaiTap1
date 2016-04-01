@@ -71,7 +71,71 @@
             </ul>
         </div>
 
-       
+        <div id="Content" >
+            <div style="position: fixed;">
+                <div class="slideshow-container" >
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="images/Slide/1.jpg" style="width:100%">
+                      
+                    </div>
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="images/Slide/2.jpg" style="width:100%">
+                     
+                    </div>
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="images/Slide/3.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div style="width: 10%;margin-top: -2%; position: absolute; margin-left: 47.5%">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                    <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+
+                        function showSlides(n) {
+                          var i;
+                          var slides = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = slides.length} ;
+                          for (i = 0; i < slides.length; i++) {
+                             slides[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                             dots[i].classList.remove("active");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].classList.add("active");
+                        }
+                    </script>
+                </div>
+            </div>
+
+           
+            
+
+                
+            
+        </div>
 
 
     </div>
