@@ -5,7 +5,7 @@ Bài tập 1
 **Name of your app** là một bài tập 1 tại môn UDPT.
 
 Thành viên: **Dương Chí Dũng: 1312090**
-            **Nguyễn Văn Tuấn: 1312667**
+            Nguyễn Văn Tuấn: 1312667
 
 URL: **http://dntteam.tk/**
 
