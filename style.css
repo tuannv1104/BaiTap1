@@ -1,0 +1,229 @@
+
+
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: unset;
+    height: inherit;
+    background-color: #333;
+}
+
+#navigation ul li a {
+    border-left: 2px solid grey;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+}
+
+#leftmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    background-color: unset;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#leftmenu ul li{
+    padding-top: 1px;
+}
+
+
+
+#leftmenu ul li a {
+    border-left: unset;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    height: 50px;
+    width: inherit;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+    transition: 0.3s ease;
+    background-color: #333;
+}
+
+#navigation ul li a:hover:not(.active) {
+    color: #e74c3c
+}
+
+
+#leftmenu ul li a:hover:not(.active) {
+    opacity: 0.7;  
+}
+
+.GreenActive {
+    background-color: #4CAF50;
+    border-left: 2px solid white;
+}
+
+
+
+
+#banner{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    background: -moz-linear-gradient(left, #CCCCCC 0%, #EEEEEE 50%, #EEEEEE 50%, #CCCCCC 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#CCCCCC),color-stop(50%,#EEEEEE), color-stop(50%,#EEEEEE), color-stop(100%,#CCCCCC));
+}
+
+#Logo{
+    height: 100%;
+    width: 205px; 
+    float: left;
+}
+
+
+
+#Header{
+  
+    background-image: url(images/Header/header.jpg);
+    height: 100%; 
+    width: 1161px;
+    height: 80px; 
+    float: right; 
+}
+
+#navigation{
+    position: fixed;
+    height: 30px;
+    left: 0;
+    top:80px;
+}
+
+#mainpage{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 110px;
+    background: lavender;
+    z-index: 10;
+}
+
+#footer{
+    position: fixed;
+    width: 100%;
+    height: 4%;
+    left: 0;
+    top: 96%;
+    background: #333;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftmenu{
+    position: fixed;
+    width: 205px;
+    height: 100%;
+    left: 0;
+    background-image: url(images/Left-menu-background/leftmenubg.jpg);
+    z-index: 10; 
+    overflow: auto;
+}
+
+
+
+#Content{
+    position: fixed;
+    width: 85%;
+    height: 519px;
+    left: 15%;
+    top: 110px;
+    z-index: 10;
+    overflow: auto;
+}
+
+.Content-interface{
+    position: relative;
+    margin-top: 229px;
+    width: 100%;
+    min-height: 290px;
+    height: auto;
+    background-color: white;
+    float: left;
+    opacity: 0.9;
+}
+
+.Content-interface-block{
+    height: 200px;
+    width: 50%;
+    background-color: unset;
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+.FooterItem{
+    margin-right: 15px;
+    height:100%;
+    width: auto;
+    background-color: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+
+
+
+
+#buttongui  /*TN*/
+{
+  right: 3%;
+  bottom: 7%;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+}
+.formcontact
+{
+  left: 7%;
+  top: 13%;
+  width: 90%;
+  height: 100px;
+  position: absolute;
+  background-color: unset;
+}
