@@ -4,9 +4,10 @@ Bài tập 1
 
 **Name of your app** là một bài tập 1 tại môn UDPT.
 
-Thành viên: **Tên và mã số sinh viên thành viên**
+Thành viên: **Dương Chí Dũng: 1312090**
+            **Nguyễn Văn Tuấn: 1312667**
 
-URL: **URL hosting của bài tập**
+URL: **http://dntteam.tk/**
 
 ## Yêu cầu
 
